@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>book</title>
+   <title>package</title>
 
    <!-- swiper css link  -->
    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -38,48 +38,87 @@
 
 <!-- header section ends -->
 
-<div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
-   <h1>book now</h1>
+<div class="heading" style="background:url(images/NIKE-AIR-MAX-90-GYM-REDBLACK4.jpg) no-repeat">
+   <h1>Brands</h1>
 </div>
 
-<!-- booking section starts  -->
+<!-- packages section starts  -->
 
-<section class="booking">
+<section class="packages">
 
-   <h1 class="heading-title">book your Shoes!</h1>
+   <h1 class="heading-title">top Brands</h1>
 
-   <form action="book_form.php" method="post" class="book-form">
+   <div class="box-container">
 
-      <div class="flex">
-         <div class="inputBox">
-            <span>name :</span>
-            <input type="text" placeholder="enter your name" name="name">
+      <div class="box">
+         <div class="image">
+            <img src="images/img-1.jpg" alt="">
          </div>
-         <div class="inputBox">
-            <span>email :</span>
-            <input type="email" placeholder="enter your email" name="email">
+         <div class="content">
+            <h3>NIKE</h3>
+            <a href="book.php" class="btn">book now</a>
          </div>
-         <div class="inputBox">
-            <span>phone :</span>
-            <input type="number" placeholder="enter your number" name="phone">
-         </div>
-         <div class="inputBox">
-            <span>address :</span>
-            <input type="text" placeholder="enter your address" name="address">
-         </div>
-         <div class="inputBox">
-            <span>location :</span>
-            <input type="text" placeholder="Shoes delivery location" name="location">
-         </div>
-         
-      <input type="submit" value="submit" class="btn" name="send">
+      </div>
 
-   </form>
+      <div class="box">
+         <div class="image">
+            <img src="images/img-2.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Jordan</h3>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img-3.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Converse</h3>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/ed8f2f5d61913377d3ff8a1645a87e05.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Gold Star</h3>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/il_fullxfull.3508973591_sls8.avif" alt="">
+         </div>
+         <div class="content">
+            <h3>Gucci</h3>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/27047917_MTEyNS0xMDkzLTAwMGYxOTU5YjQ.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Airmax</h3>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+
+      </div>
+
+   </div>
+
 
 </section>
 
-<!-- booking section ends -->
-
+<!-- packages section ends -->
 
 
 
@@ -120,10 +159,10 @@
 
       <div class="box">
          <h3>contact info</h3>
-         <a href="#"> <i class="fas fa-phone"></i>9803216547</a>
-         <a href="#"> <i class="fas fa-phone"></i>9876543210 </a>
+         <a href="#"> <i class="fas fa-phone"></i> 9803216547 </a>
+         <a href="#"> <i class="fas fa-phone"></i> 9876543210 </a>
          <a href="#"> <i class="fas fa-envelope"></i> bhola@gmail.com </a>
-         <a href="#"> <i class="fas fa-map"></i>Kathmandu, Nepal</a>
+         <a href="#"> <i class="fas fa-map"></i> Kathmandu, Nepal </a>
       </div>
 
       <div class="box">
@@ -136,7 +175,7 @@
 
    </div>
 
-   <!-- <div class="credit"> created by <span>Bhola Rauniyar</span> | all rights reserved! </div> -->
+   <!-- <div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div> -->
 
 </section>
 

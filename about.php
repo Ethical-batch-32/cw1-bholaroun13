@@ -29,7 +29,7 @@
       <nav class="navbar">
          <a href="home.php">home</a>
          <a href="about.php">about</a>
-         <a href="package.php"> brand</a>
+         <a href="brands.php"> brand</a>
          <a href="book.php">book</a>
          <a href="sign/login.php">Signin/Signup</a>
       </nav>
